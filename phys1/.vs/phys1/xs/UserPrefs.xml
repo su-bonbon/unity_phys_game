@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{F805FFF4-6489-85AC-986E-B224A7C2C65A}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/runningfunction.cs">
+    <Files>
+      <File FileName="Assets/runningfunction.cs" Line="19" Column="35" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2b75211d-3bc3-432b-a0ea-517667d46587" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
