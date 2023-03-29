@@ -54,6 +54,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets/runningfunction.cs" />
+    <Compile Include="Assets/infobox.cs" />
+    <Compile Include="Assets/velobox.cs" />
+    <Compile Include="Assets/accelbox.cs" />
+    <Compile Include="Assets/gravbox.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
