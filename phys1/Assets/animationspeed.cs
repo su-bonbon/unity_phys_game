@@ -15,9 +15,9 @@ public class animationspeed : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButton(0))
+        if (Input.GetKeyDown("space"))
         {
-            anim.speed = 4f;
+            anim.speed = 10f;
         }
         else
         {

@@ -7,7 +7,7 @@ public class bganima : MonoBehaviour
 {
     private Animator anim;
 
-    private float distance;
+    private float distance = 0;
     public Text distanceUI;
 
     // Start is called before the first frame update
@@ -16,13 +16,14 @@ public class bganima : MonoBehaviour
         anim = gameObject.GetComponent<Animator>();
     }
 
+    
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButton(0))
+        if (Input.GetKeyDown("space"))
         {
-            anim.speed = 2f;
-            distance += 0.5f;
+            anim.speed = 15f;
+            distance += 0.1f;
         }
         else
         {
