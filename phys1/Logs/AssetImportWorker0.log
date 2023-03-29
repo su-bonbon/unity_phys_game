@@ -214,3 +214,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 638.892319 seconds.
+  path: Assets/img/empty.png
+  artifactKey: Guid(3139152d7634e43768f7b163a607ae81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/img/empty.png using Guid(3139152d7634e43768f7b163a607ae81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2acad3f1797a5a746768ba06962a8802') in 0.328170 seconds 
+  Import took 0.360391 seconds .
+
