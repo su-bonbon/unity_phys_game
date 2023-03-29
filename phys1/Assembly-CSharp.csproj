@@ -58,6 +58,7 @@
     <Compile Include="Assets/velobox.cs" />
     <Compile Include="Assets/accelbox.cs" />
     <Compile Include="Assets/gravbox.cs" />
+    <Compile Include="Assets/velo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

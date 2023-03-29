@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class infobox : MonoBehaviour
+public class Text(1) : MonoBehaviour
 {
     // public static double mess = 60;
     public static double velo = 1;
