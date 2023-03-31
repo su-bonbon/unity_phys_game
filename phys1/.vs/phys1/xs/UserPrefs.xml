@@ -1,22 +1,19 @@
-﻿<Properties StartupConfiguration="{F805FFF4-6489-85AC-986E-B224A7C2C65A}|">
+﻿<Properties>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/bganima.cs">
     <Files>
       <File FileName="Assets/runningfunction.cs" />
       <File FileName="Assets/animationspeed.cs" />
-      <File FileName="Assets/bganima.cs" Line="30" Column="29" />
+      <File FileName="Assets/bganima.cs" Line="33" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="phys1" expanded="True">
-            <Node name="Assets" expanded="True" />
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="Assets" expanded="True" />
+            </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Unity" selected="True" />
         </State>
       </Pad>
     </Pads>
