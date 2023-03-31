@@ -1,23 +1,30 @@
 ﻿<Properties StartupConfiguration="{F805FFF4-6489-85AC-986E-B224A7C2C65A}|">
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/bganima.cs">
     <Files>
-      <File FileName="Assets/runningfunction.cs" Line="19" Column="1" />
-      <File FileName="Assets/animationspeed.cs" Line="20" Column="27" />
-      <File FileName="Assets/bganima.cs" Line="30" Column="74" />
+      <File FileName="Assets/runningfunction.cs" />
+      <File FileName="Assets/animationspeed.cs" />
+      <File FileName="Assets/bganima.cs" Line="30" Column="29" />
     </Files>
     <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="phys1" expanded="True">
+            <Node name="Assets" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="Unity" expanded="True" selected="True" />
+          <Node name="Unity" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2b75211d-3bc3-432b-a0ea-517667d46587" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6054a61d-425a-4395-bb57-812804f86c30" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
