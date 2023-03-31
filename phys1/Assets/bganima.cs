@@ -27,7 +27,10 @@ public class bganima : MonoBehaviour
         if (Input.GetKeyDown("space"))
         {
             anim.speed = 15f;
-            distance += 0.5f;
+
+            // According to the University of Oklahoma Health Sciences Center,
+            // the average step length for women is approximately 26 inches,
+            distance += 0.66f;
             speed = distance / timer;
         }
         else
