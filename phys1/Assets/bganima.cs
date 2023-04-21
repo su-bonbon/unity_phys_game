@@ -36,10 +36,11 @@ public class bganima : MonoBehaviour
         else
         {
             anim.speed = 0f;
-            distanceUI.text = "Distance: " + distance.ToString("F2") + " m\n" +
+
+        }
+        distanceUI.text = "Distance: " + distance.ToString("F2") + " m\n" +
                               "Time: " + timer.ToString("F2") + " s\n" +
                               "Speed: " + speed.ToString("F2") + "m/s";
 
-        }
     }
 }
