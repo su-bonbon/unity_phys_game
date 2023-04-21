@@ -10,6 +10,7 @@ public class bganima : MonoBehaviour
     private float distance = 0;
     private float speed = 0;
     private float timer = 0;
+    private float airresis = 0;
     public Text distanceUI;
 
     // Start is called before the first frame update
@@ -40,7 +41,8 @@ public class bganima : MonoBehaviour
         }
         distanceUI.text = "Distance: " + distance.ToString("F2") + " m\n" +
                               "Time: " + timer.ToString("F2") + " s\n" +
-                              "Speed: " + speed.ToString("F2") + "m/s";
+                              "Speed: " + speed.ToString("F2") + "m/s\n" +
+                              "AirResistance: " + airresis.ToString("F2") ;
 
     }
 }
