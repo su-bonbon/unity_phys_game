@@ -38,7 +38,7 @@ public class bganima : MonoBehaviour
             // According to the University of Oklahoma Health Sciences Center,
             // the average step length for women is approximately 26 inches,
             distance += 0.66f;
-            speed = distance / timer;
+            speed = (distance / timer) - (windblow.windv*(Mathf.Cos(windblow.winda)));
         }
         else
         {
