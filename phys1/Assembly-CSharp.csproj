@@ -49,6 +49,7 @@
   <ItemGroup>
      <Compile Include="Assets\runningfunction.cs" />
      <Compile Include="Assets\gravbox.cs" />
+     <Compile Include="Assets\windblow.cs" />
      <Compile Include="Assets\accelbox.cs" />
      <Compile Include="Assets\infobox.cs" />
      <Compile Include="Assets\simplemovement.cs" />
@@ -56,7 +57,6 @@
      <Compile Include="Assets\velobox.cs" />
      <Compile Include="Assets\velo.cs" />
      <Compile Include="Assets\animationspeed.cs" />
-     <Compile Include="Assets\windblow.cs" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
