@@ -22,8 +22,8 @@ public class bganima : MonoBehaviour
     {
         anim = gameObject.GetComponent<Animator>();
         //wind = gameObject.GetComponent<windblow>();
-        windblow.winda = 0;
-        windblow.windv = 10;
+        windblow.winda = 30  ;
+        windblow.windv = 10;  
     }
 
     
@@ -47,7 +47,7 @@ public class bganima : MonoBehaviour
         }
         distanceUI.text = "Distance: " + distance.ToString("F2") + " m\n" +
                               "Time: " + timer.ToString("F2") + " s\n" +
-                              "Speed: " + speed.ToString("F2") + "m/s\n" +
+                              "Velocity(H): " + speed.ToString("F2") + "m/s\n" +
                               "Wind Force: " + windblow.windv.ToString("F2") + " to "+
                               windblow.winda.ToString("F0");
 

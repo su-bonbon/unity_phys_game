@@ -16,14 +16,7 @@ public class windblow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("space"))
-        {
-            anim.speed = 5f;
-        }
-        else
-        {
-            anim.speed = 0.1f;
+        anim.speed = 0.1f;
 
-        }
     }
 }
