@@ -16,7 +16,7 @@ public class windblow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        anim.speed = 0.1f;
-
+        // anim.speed = 0.1f;
+        anim.speed = (windblow.windv * (Mathf.Cos(windblow.winda))) * 0.1f;
     }
 }

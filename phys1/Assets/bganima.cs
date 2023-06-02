@@ -6,11 +6,6 @@ using UnityEngine.UI;
 public class bganima : MonoBehaviour
 {
     private Animator anim;
-    //private windblow wind;
-
-    //static public float winda;
-    //static public windv;
-
     private float distance = 0;
     private float speed = 0;
     private float timer = 0;
@@ -21,7 +16,6 @@ public class bganima : MonoBehaviour
     void Start()
     {
         anim = gameObject.GetComponent<Animator>();
-        //wind = gameObject.GetComponent<windblow>();
         windblow.winda = 30  ;
         windblow.windv = 10;  
     }
